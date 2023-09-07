@@ -1,1 +1,72 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
 
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-family: 'Outfit', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.background-container {
+  background-color: var(--Light-gray);
+  height: 620px;
+  padding: 5rem;
+  display: flex;
+  margin-top: 50px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.content-holder {
+  background-color: #fff;
+  max-width: 288px;
+  margin: 0 auto;
+  height: 460px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+  width: 258px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  border-radius: 10px;
+}
+
+.p-hack-quote {
+  color: var(--Dark-blue);
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 1rem 0 1rem;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.p-guidance {
+  color: var(--Grayish-blue);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 1rem 0 1rem;
+  margin-top: -20px;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a{
+  color: var(--Dark-blue);
+}
+.attribution a:hover {
+  text-decoration: none;
+}
